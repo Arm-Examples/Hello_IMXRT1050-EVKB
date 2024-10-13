@@ -22,14 +22,14 @@ project:
   components:
     - component: CMSIS:CORE
     - component: CMSIS:RTOS2:Keil RTX5&Source
-
-    - component: CMSIS-Compiler:I/O:STDOUT&User
+    - component: ARM::CMSIS:OS Tick:SysTick
+    - component: ARM::CMSIS-Compiler:CORE
+    - component: ARM::CMSIS-Compiler:STDOUT:Custom
 
     - component: Device:Startup
 
     - component: NXP::Device:CMSIS:MIMXRT1052_header
     - component: NXP::Device:CMSIS:MIMXRT1052_system
-
     - component: NXP::Device:SDK Drivers:clock
     - component: NXP::Device:SDK Drivers:common
     - component: NXP::Device:SDK Drivers:gpio
@@ -39,11 +39,9 @@ project:
     - component: NXP::Device:SDK Drivers:lpuart_adapter
     - component: NXP::Device:SDK Drivers:nic301
     - component: NXP::Device:SDK Drivers:xip_device
-
     - component: NXP::Device:SDK Utilities:assert
     - component: NXP::Device:SDK Utilities:debug_console
     - component: NXP::Device:SDK Utilities:serial_manager
     - component: NXP::Device:SDK Utilities:serial_manager_uart
-
     - component: NXP::Board Support:SDK Drivers:evkbimxrt1050
     - component: NXP::Board Support:SDK Project Template:project_template&evkbimxrt1050
