@@ -19,10 +19,6 @@ project:
   linker:
     - script: RTE/Device/MIMXRT1052DVL6B/MIMXRT1052xxxxx_flexspi_nor.scf
 
-  misc:
-    - Link:
-      - '--predefine="-DXIP_BOOT_HEADER_ENABLE=1"'
-
   components:
     - component: CMSIS:CORE
     - component: CMSIS:RTOS2:Keil RTX5&Source
@@ -51,8 +47,3 @@ project:
 
     - component: NXP::Board Support:SDK Drivers:evkbimxrt1050
     - component: NXP::Board Support:SDK Project Template:project_template&evkbimxrt1050
-
-  output:
-    type:
-      - elf
-      - hex
