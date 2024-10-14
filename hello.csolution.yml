@@ -1,7 +1,8 @@
 solution:
   description: Simple Hello World example for IMXRT1050-EVKB
-  created-for: CMSIS-Toolbox@2.0.0
+  created-for: CMSIS-Toolbox@2.6.0
   compiler: AC6
+  cdefault: ./cdefault.yml
 
   packs:
     - pack: ARM::CMSIS
