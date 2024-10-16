@@ -23,7 +23,6 @@ project:
     - component: CMSIS:CORE
     - component: CMSIS:RTOS2:Keil RTX5&Source
     - component: CMSIS-Compiler:I/O:STDOUT&User
-
     - component: Device:Startup
     - component: Device:CMSIS:MIMXRT1052_header
     - component: Device:CMSIS:MIMXRT1052_system
