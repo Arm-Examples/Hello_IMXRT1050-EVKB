@@ -1,3 +1,7 @@
+[![License](https://img.shields.io/github/license/Arm-Examples/Hello_IMXRT1050-EVKB?label)](https://github.com/Arm-Examples/Hello_IMXRT1050-EVKB/blob/main/LICENSE)
+[![Build and Execution Test](https://img.shields.io/github/actions/workflow/status/Arm-Examples/Hello_IMXRT1050-EVKB/build.yml?logo=arm&logoColor=0091bd&label=Build%20and%20Execution%20Test)](https://github.com/Arm-Examples/Hello_IMXRT1050-EVKB/tree/main/.github/workflows/build.yml)
+
+
 # Hello example for IMXRT1050-EVKB
 
 Simple Hello World example for NXP [IMXRT1050-EVKB](https://www.nxp.com/part/IMXRT1050-EVKB#/) Evaluation Kit.
@@ -10,7 +14,7 @@ This example prints "Hello World" and a counter value via the standard output wh
 ## Prerequisites
 
 ### Tools:
- - [CMSIS-Toolbox v2.0.0](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/releases) or newer
+ - [CMSIS-Toolbox v2.6.1](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/releases) or newer
  - [Microsoft Visual Studio Code](https://code.visualstudio.com/download) with Keil Studio Pack extension (optional, alternatively CLI can be used)
  - [Arm Compiler 6](https://developer.arm.com/Tools%20and%20Software/Arm%20Compiler%20for%20Embedded) (automatically installed when using Visual Studio Code with vcpkg)
 
