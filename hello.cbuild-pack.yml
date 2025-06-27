@@ -8,7 +8,7 @@ cbuild-pack:
       selected-by-pack:
         - ARM::CMSIS-Compiler
         - ARM::CMSIS-Compiler@1.0.0
-    - resolved-pack: NXP::EVKB-IMXRT1050_BSP@19.0.0
+    - resolved-pack: NXP::EVKB-IMXRT1050_BSP@16.0.0
       selected-by-pack:
         - NXP::EVKB-IMXRT1050_BSP
     - resolved-pack: NXP::MIMXRT1052_DFP@16.0.0
